@@ -1,0 +1,54 @@
+h2 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  outline: none;
+  box-sizing: border-box;
+  margin-bottom: 14px;
+  color: #111;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-color: #1e2a3a;
+}
+
+textarea {
+  height: 110px;
+  resize: vertical;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 11px;
+  background: #1e2a3a;
+  color: #ffffff;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: #2d3f52;
+}

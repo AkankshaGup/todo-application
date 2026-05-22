@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>update todo</title>
+    <link rel="stylesheet" href="/navbar.css">
+    <link rel="stylesheet" href="/addtask.css">
+</head>
+<body>
+    <%- include('navbar') %>
+       <h2>Update Task</h2>
+
+        <div class="card">
+            <form action="/update/<%= task._id %>" method="POST">
+                <input type="text" value="<%= task.title %>" name="title" placeholder="enter title" />
+                <textarea name="description"><%= task.description %></textarea>
+                <button type="submit">Update Task</button>
+            </form>
+        </div>
+</body>
+</html>
